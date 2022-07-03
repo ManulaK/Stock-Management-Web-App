@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>StockManagementWebApp</display-name>
+  
+	<servlet>  
+        <servlet-name>Admin_IndexServlet</servlet-name>  
+        <servlet-class>com.StockServlets.Admin_IndexServlet</servlet-class>  
+    </servlet>  
+  
+    <servlet-mapping>  
+        <servlet-name>Admin_IndexServlet</servlet-name>  
+        <url-pattern>/Admin_IndexServlet</url-pattern>  
+    </servlet-mapping> 
+    
+    
+    
+    <servlet>  
+        <servlet-name>UpdateProductServlet</servlet-name>  
+        <servlet-class>com.StockServlets.UpdateProductServlet</servlet-class>  
+    </servlet>  
+  
+    <servlet-mapping>  
+        <servlet-name>UpdateProductServlet</servlet-name>  
+        <url-pattern>/UpdateProductServlet</url-pattern>  
+    </servlet-mapping> 
+    
+    
+        
+    
+    <servlet>  
+        <servlet-name>RemoveProductServlet</servlet-name>  
+        <servlet-class>com.StockServlets.RemoveProductServlet</servlet-class>  
+    </servlet>  
+  
+    <servlet-mapping>  
+        <servlet-name>RemoveProductServlet</servlet-name>  
+        <url-pattern>/RemoveProductServlet</url-pattern>  
+    </servlet-mapping> 
+    
+    
+    
+        <servlet>  
+        <servlet-name>AddProductsServlet</servlet-name>  
+        <servlet-class>com.StockServlets.AddProductsServlet</servlet-class>  
+    </servlet>  
+  
+    <servlet-mapping>  
+        <servlet-name>AddProductsServlet</servlet-name>  
+        <url-pattern>/AddProductsServlet</url-pattern>  
+    </servlet-mapping> 
+    
+    
+           <servlet>  
+        <servlet-name>ViewProductServlet</servlet-name>  
+        <servlet-class>com.StockServlets.ViewProductServlet</servlet-class>  
+    </servlet>  
+  
+    <servlet-mapping>  
+        <servlet-name>ViewProductServlet</servlet-name>  
+        <url-pattern>/ViewProductServlet</url-pattern>  
+    </servlet-mapping> 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</web-app>
+</element>
